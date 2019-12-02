@@ -23,7 +23,6 @@
         </rowConstraints>
          <children>
             <TextField fx:id="UsernameField" GridPane.columnIndex="1" />
-            <TextField fx:id="dbAdminPasswordField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="firstNameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="addressField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
@@ -36,6 +35,7 @@
             <Label text="Address" GridPane.rowIndex="4" />
             <Label text="Email" GridPane.rowIndex="5" />
             <Label text="Phone Number" GridPane.rowIndex="6" />
+            <PasswordField fx:id="dbAdminPasswordField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
       <Button layoutX="308.0" layoutY="529.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
