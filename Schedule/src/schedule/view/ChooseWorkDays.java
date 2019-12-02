@@ -51,30 +51,7 @@ public class ChooseWorkDays extends Login1Controller implements Initializable {
        personStage.show();
 
   }
-/*	
- * 
- *  
- *  
- *@FXML
 
-    private DatePicker dateField; 
- 
-	 public void dateGet(ActionEvent event)
-	 {
-		 LocalDate date1 = dateField.getValue();
-		 System.out.println(date1);
-		  String strDateFormat = "E";
-		     SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
-		     
-		     System.out.println("Current day of week in E format : " + sdf.format(2019-11-12));
-		     
-		     //formatting day of week in EEEE format like Sunday, Monday etc.
-		     strDateFormat = "EEEE";
-		     sdf = new SimpleDateFormat(strDateFormat);
-		     System.out.println("Current day of week in EEEE format : " + sdf.format(2019-11-12));
-	     
-	 }
-*/
 	 private DBConnection database = new DBConnection();
 	    private Connection connection;
 	    private Statement statement;
