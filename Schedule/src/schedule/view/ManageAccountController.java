@@ -45,7 +45,7 @@ public class ManageAccountController extends Login1Controller implements Initial
 
         personStage.setScene(personScene);
 
-        personStage.setTitle("Person Overview");
+        personStage.setTitle("Overview");
 
         personStage.show();
 }
@@ -65,7 +65,7 @@ public class ManageAccountController extends Login1Controller implements Initial
 
        personStage.setScene(personScene);
 
-       personStage.setTitle("Person Overview");
+       personStage.setTitle("update contact information");
 
        personStage.show();
 }
