@@ -55,7 +55,7 @@ public class RequestDayOff extends Login1Controller implements Initializable {
 
 	         personStage.setScene(personScene);
 
-	         personStage.setTitle("Person Overview");
+	         personStage.setTitle("Overview");
 
 	         personStage.show();
 
