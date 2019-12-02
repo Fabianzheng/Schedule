@@ -136,7 +136,7 @@ public class UpdateController {
 
                   personStage.setScene(personScene);
 
-                  personStage.setTitle("Person Overview");
+                  personStage.setTitle("manage account");
 
                   personStage.show();   
             }                       
