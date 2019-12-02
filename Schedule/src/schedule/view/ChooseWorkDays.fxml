@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedule.view.ChooseWorkDays">
+   <children>
+      <Label layoutX="155.0" layoutY="37.0" text="Choose Work Days">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="483.0" layoutY="443.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
+      <Text layoutX="247.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Yes or No" />
+      <Label layoutX="59.0" layoutY="230.0" text="Monday:" />
+      <Label layoutX="59.0" layoutY="281.0" text="Tuesday:" />
+      <Label layoutX="40.0" layoutY="336.0" text="Wednesday:" />
+      <Label layoutX="47.0" layoutY="391.0" text="Thursday:" />
+      <Label layoutX="337.0" layoutY="230.0" text="Friday:" />
+      <Label layoutX="322.0" layoutY="281.0" text="Saturday:" />
+      <Label layoutX="334.0" layoutY="336.0" text="Sunday:" />
+      <Label layoutX="23.0" layoutY="125.0" text="Name:">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <ComboBox fx:id="monday" layoutX="107.0" layoutY="226.0" prefWidth="150.0" />
+      <ComboBox fx:id="tuesday" layoutX="107.0" layoutY="277.0" prefWidth="150.0" />
+      <ComboBox fx:id="wednesday" layoutX="107.0" layoutY="332.0" prefWidth="150.0" />
+      <ComboBox fx:id="thursday" layoutX="107.0" layoutY="387.0" prefWidth="150.0" />
+      <ComboBox fx:id="friday" layoutX="376.0" layoutY="226.0" prefWidth="150.0" />
+      <ComboBox fx:id="saturday" layoutX="376.0" layoutY="277.0" prefWidth="150.0" />
+      <ComboBox fx:id="sunday" layoutX="376.0" layoutY="332.0" prefWidth="150.0" />
+      <Button layoutX="526.0" layoutY="443.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Label fx:id="firstNameLabel" layoutX="105.0" layoutY="125.0" text="Label">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

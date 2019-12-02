@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedule.view.WorkoverviewController">
+   <children>
+      <Button layoutX="497.0" layoutY="32.0" mnemonicParsing="false" onAction="#signOutButtonClicked" text="Sign Out" />
+      <Button layoutX="371.0" layoutY="32.0" mnemonicParsing="false" onAction="#manageClicked" text="Mange Account" />
+      <Button layoutX="278.0" layoutY="32.0" mnemonicParsing="false" text="Messages" />
+      <Button layoutX="48.0" layoutY="175.0" mnemonicParsing="false" onAction="#requestDaysOffClicked" text="Request Days Off" />
+      <Button layoutX="44.0" layoutY="233.0" mnemonicParsing="false" onAction="#chooseDaysOffClicked" text="Choose Work Days" />
+      <Label layoutX="39.0" layoutY="27.0" prefHeight="35.0" prefWidth="63.0" text="User:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="244.0" layoutY="122.0" prefHeight="25.0" prefWidth="311.0" />
+      <Label layoutX="93.0" layoutY="31.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

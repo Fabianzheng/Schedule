@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="200.0" minWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="schedule.view.AreYouSureController">
+   <children>
+      <Label layoutX="103.0" layoutY="13.0" text="Warning" textFill="#c60e0e">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="49.0" text="Reset Week Cannot be undo" />
+      <Button layoutX="88.0" layoutY="100.0" mnemonicParsing="false" onAction="#resetButton" text="Reset" />
+      <Button layoutX="160.0" layoutY="100.0" mnemonicParsing="false" onAction="#cancelButton" text="Cancel" />
+   </children>
+</AnchorPane>
